@@ -77,11 +77,30 @@ body {
 .hero-left p {
   margin-bottom: 1.5rem;
 }
+.hero-right .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* CTA container + buttons */
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
 .cta .btn {
-  padding: 0.7rem 1.2rem;
-  margin-right: 0.5rem;
-  border-radius: 25px;
+  flex: 1 1 auto;
+  min-width: 140px;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 25px;   /* rounded but consistent */
   text-decoration: none;
+  display: inline-block;
   font-weight: 600;
 }
 .btn.primary {
@@ -91,13 +110,6 @@ body {
 .btn.ghost {
   border: 2px solid white;
   color: white;
-}
-.hero-right .avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 5px solid white;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 /* SECTION */
@@ -204,9 +216,13 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
+  cursor: grab;
 }
 #chat-widget.hidden {
   display: none;
+}
+#chat-widget:active {
+  cursor: grabbing;
 }
 .chat-header {
   background: var(--primary);
@@ -250,80 +266,48 @@ body {
   word-wrap: break-word;
   font-size: 0.9rem;
 }
-
-/* User messages (right side, blue bubble) */
 #chat-body .user {
   background: var(--primary);
   color: white;
   align-self: flex-end;
   margin-left: auto;
 }
-
-/* Bot messages (left side, gray bubble) */
 #chat-body .bot {
   background: #f1f1f1;
   color: var(--dark);
   align-self: flex-start;
   margin-right: auto;
 }
-/* Typing indicator */
 #chat-body .typing {
   font-style: italic;
   color: var(--gray);
   background: transparent;
   box-shadow: none;
 }
-/* Allow dragging */
-#chat-widget {
-  position: fixed;
-  bottom: 80px;
-  right: 20px;
-  width: 300px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  display: flex;
-  flex-direction: column;
-  cursor: grab;
-}
-#chat-widget:active {
-  cursor: grabbing;
-}
-/* Mobile adjustments for iPhone screens */
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
 
-  .container {
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
-
-  .profile img {
-    width: 120px;
-    height: 120px;
+  .hero-left {
+    max-width: 100%;
   }
-
-  .buttons {
-    display: flex;
+  .hero-right {
+    margin-top: 20px;
+  }
+  .hero-right .avatar {
+    width: 140px;
+    height: 140px;
+  }
+  /* Mobile button fix */
+  .cta {
     flex-direction: column;
-    gap: 15px; /* space between buttons */
-    width: 100%;
-    max-width: 280px; /* keeps them neat */
-    margin-top: 20px;
+    align-items: center;
   }
-
-  .buttons button {
-    width: 100%; /* full width */
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 8px;
-  }
-
-  #chat-container {
+  .cta .btn {
     width: 100%;
-    margin-top: 20px;
+    max-width: 280px;
   }
 }
