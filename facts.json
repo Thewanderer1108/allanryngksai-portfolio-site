@@ -1,5 +1,5 @@
 {
-  "summary": "Methodical Workforce/Data Analyst with expertise in Python, SQL, Alteryx, and Machine Learning/AI. Skilled in automation, reporting, and SharePoint integration. Passionate about building scalable solutions that improve efficiency and decision-making.",
+  "summary": "Methodical Workforce/Data Automation Analyst with expertise in Python, SQL, Alteryx, and Machine Learning/AI. Skilled in automation, reporting, and SharePoint integration. Passionate about building scalable solutions that improve efficiency and decision-making.",
 
   "skills": [
     "Python", "SQL", "Alteryx", "Machine Learning", "Deep Learning",
@@ -63,10 +63,6 @@
 
   "certifications": [
     {
-      "name": "Executive Post Graduate Certification in Data Science & AI",
-      "issuer": "IIT Roorkee"
-    },
-    {
       "name": "Alteryx Designer Core Certification",
       "issuer": "Alteryx"
     },
@@ -92,10 +88,6 @@
     {
       "label": "GitHub",
       "url": "https://github.com/AllanRyngksai"
-    },
-    {
-      "label": "Bold Profile",
-      "url": "https://bold.pro/my/allanryngksai"
     }
   ]
 }
