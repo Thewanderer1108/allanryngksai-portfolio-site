@@ -289,37 +289,55 @@ body {
 #chat-widget:active {
   cursor: grabbing;
 }
-/* Mobile responsiveness */
+/* Mobile adjustments for iPhone screens */
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
+  /* Profile image */
   .profile img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
   }
 
+  /* Headline text */
+  .headline {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  /* Buttons stack vertically */
   .buttons {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
+    margin: 20px auto;
   }
 
-  button {
+  .buttons button,
+  .buttons a {
     width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 12px;
   }
 
+  /* Chatbot */
   #chat-container {
-    width: 100%;
-    margin-top: 20px;
+    width: 95%;
+    max-width: 350px;
+    margin: 15px auto;
+    border-radius: 12px;
+    font-size: 0.85rem;
+  }
+
+  #chat-icon {
+    bottom: 15px;
+    right: 15px;
+    width: 55px;
+    height: 55px;
+    font-size: 1.5rem;
   }
 }
