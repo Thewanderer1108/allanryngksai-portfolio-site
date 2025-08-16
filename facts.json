@@ -10,7 +10,7 @@
 
   "experience": [
     {
-      "role": "Workforce/Data Analyst",
+      "role": "Workforce/Data Automation Analyst",
       "company": "J.P. Morgan",
       "dates": "2023 – Present",
       "description": "Built automated pipelines in Python & Alteryx for SLA tracking, workload forecasting, and SharePoint ticket assignment. Developed machine learning models for call center forecasting and agent performance insights."
