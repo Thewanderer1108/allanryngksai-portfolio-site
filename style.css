@@ -1,0 +1,291 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #00bcd4;
+  --secondary: #ff4081;
+  --dark: #1e1e2f;
+  --light: #f9f9f9;
+  --gray: #888;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--dark);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav .brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav .brand span {
+  color: var(--primary);
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+.nav a:hover {
+  color: var(--secondary);
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+}
+.hero-left {
+  max-width: 50%;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-left h1 span {
+  color: #ffe082;
+}
+.hero-left h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.hero-left p {
+  margin-bottom: 1.5rem;
+}
+.cta .btn {
+  padding: 0.7rem 1.2rem;
+  margin-right: 0.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn.primary {
+  background: white;
+  color: var(--dark);
+}
+.btn.ghost {
+  border: 2px solid white;
+  color: white;
+}
+.hero-right .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* SECTION */
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* SKILLS */
+#skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+#skills-chips span {
+  background: var(--secondary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* EXPERIENCE TIMELINE */
+#experience-timeline {
+  border-left: 3px solid var(--primary);
+  padding-left: 1.5rem;
+}
+#experience-timeline .job {
+  margin-bottom: 2rem;
+  position: relative;
+}
+#experience-timeline .job::before {
+  content: "●";
+  color: var(--secondary);
+  position: absolute;
+  left: -1.2rem;
+  font-size: 1.2rem;
+}
+#experience-timeline h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* PROJECTS GRID */
+#projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* CONTACT */
+#contact-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+#contact-links a:hover {
+  color: var(--secondary);
+}
+
+/* CHATBOT */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+#chat-toggle:hover {
+  transform: scale(1.1);
+}
+#chat-widget {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+}
+#chat-widget.hidden {
+  display: none;
+}
+.chat-header {
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px 12px 0 0;
+}
+#chat-body {
+  flex: 1;
+  padding: 0.5rem;
+  overflow-y: auto;
+  max-height: 250px;
+}
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+.chat-input input {
+  flex: 1;
+  border: none;
+  padding: 0.5rem;
+}
+.chat-input button {
+  background: var(--secondary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0 0 12px 0;
+}
+/* CHAT MESSAGES */
+#chat-body .user,
+#chat-body .bot {
+  padding: 0.5rem 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 12px;
+  max-width: 80%;
+  word-wrap: break-word;
+  font-size: 0.9rem;
+}
+
+/* User messages (right side, blue bubble) */
+#chat-body .user {
+  background: var(--primary);
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+/* Bot messages (left side, gray bubble) */
+#chat-body .bot {
+  background: #f1f1f1;
+  color: var(--dark);
+  align-self: flex-start;
+  margin-right: auto;
+}
+/* Typing indicator */
+#chat-body .typing {
+  font-style: italic;
+  color: var(--gray);
+  background: transparent;
+  box-shadow: none;
+}
+/* Allow dragging */
+#chat-widget {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  cursor: grab;
+}
+#chat-widget:active {
+  cursor: grabbing;
+}

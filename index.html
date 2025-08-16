@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Allan Ryngksai — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="brand">Allan<span>Ryngksai</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Hi, I’m <span>Allan</span></h1>
+      <h2>Workforce/Data Analyst · Automation · ML/AI</h2>
+      <p>
+        I automate workflows, build data products, and ship insights that move the needle.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="Allan_Resume_2025.pdf" download>Download Résumé</a>
+        <a class="btn ghost" href="#contact">Let’s Connect</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="assets/profile.jpg" alt="Allan profile photo" class="avatar" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h3>About Me</h3>
+    <p id="about-text"></p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h3>Skills</h3>
+    <div id="skills-chips"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h3>Experience</h3>
+    <div id="experience-timeline"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h3>Projects</h3>
+    <div id="projects-grid"></div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h3>Education & Certifications</h3>
+    <div id="edu-cert-grid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h3>Let’s Connect</h3>
+    <div id="contact-links"></div>
+  </section>
+
+  <!-- CHATBOT -->
+  <button id="chat-toggle">💬</button>
+  <div id="chat-widget" class="hidden">
+    <div class="chat-header">
+      <span>Ask about Allan</span>
+      <button id="chat-close">✕</button>
+    </div>
+    <div id="chat-body"></div>
+    <div class="chat-input">
+      <input id="chat-question" type="text" placeholder="Ask a question…" />
+      <button id="chat-send">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>

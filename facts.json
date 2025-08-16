@@ -1,0 +1,101 @@
+{
+  "summary": "Methodical Workforce/Data Analyst with expertise in Python, SQL, Alteryx, and Machine Learning/AI. Skilled in automation, reporting, and SharePoint integration. Passionate about building scalable solutions that improve efficiency and decision-making.",
+
+  "skills": [
+    "Python", "SQL", "Alteryx", "Machine Learning", "Deep Learning",
+    "Data Science", "Time Series Forecasting", "Tableau", "Power BI",
+    "Excel", "Automation", "REST API Integration", "SharePoint Automation",
+    "ETL Pipelines", "Data Wrangling", "Statistical Analysis"
+  ],
+
+  "experience": [
+    {
+      "role": "Workforce/Data Analyst",
+      "company": "J.P. Morgan",
+      "dates": "2023 – Present",
+      "description": "Built automated pipelines in Python & Alteryx for SLA tracking, workload forecasting, and SharePoint ticket assignment. Developed machine learning models for call center forecasting and agent performance insights."
+    },
+    {
+      "role": "Fraud Analyst",
+      "company": "J.P. Morgan",
+      "dates": "2022 – 2023",
+      "description": "Monitored fraud patterns, automated reporting workflows, and designed dashboards for risk mitigation."
+    },
+    {
+      "role": "Sales Specialist",
+      "company": "Tech Mahindra",
+      "dates": "2018 – 2022",
+      "description": "Delivered client solutions and achieved sales targets while supporting digital adoption initiatives."
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "SharePoint Ticket Automation",
+      "description": "Developed Python + Alteryx pipeline to extract SharePoint tickets, classify priority, and auto-assign to agents via round-robin logic."
+    },
+    {
+      "title": "Call Center Forecasting",
+      "description": "Implemented SARIMA, LSTM, and Prophet models for predicting call volumes, SLA, and agent requirements."
+    },
+    {
+      "title": "Reporting Automation",
+      "description": "Designed workflows that automated repetitive reporting tasks, reducing manual effort by 70%."
+    },
+    {
+      "title": "Chatbot Resume Assistant",
+      "description": "Built a personal chatbot to answer recruiter questions based on structured resume data."
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "IIT Roorkee (iHUB DivyaSampark)",
+      "degree": "Executive PG in Data Science & Artificial Intelligence",
+      "year": "2024"
+    },
+    {
+      "institution": "University of Science & Technology Meghalaya",
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "year": "2016"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "Executive Post Graduate Certification in Data Science & AI",
+      "issuer": "IIT Roorkee"
+    },
+    {
+      "name": "Alteryx Designer Core Certification",
+      "issuer": "Alteryx"
+    },
+    {
+      "name": "Machine Learning & Deep Learning",
+      "issuer": "Data Science Program"
+    },
+    {
+      "name": "Python & SQL for Data Science",
+      "issuer": "Independent Courses"
+    }
+  ],
+
+  "contact": [
+    {
+      "label": "Email",
+      "url": "mailto:allanryngksai@example.com"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/allanryngksai"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/AllanRyngksai"
+    },
+    {
+      "label": "Bold Profile",
+      "url": "https://bold.pro/my/allanryngksai"
+    }
+  ]
+}
