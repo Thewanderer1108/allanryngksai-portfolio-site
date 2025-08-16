@@ -291,53 +291,39 @@ body {
 }
 /* Mobile adjustments for iPhone screens */
 @media (max-width: 768px) {
-  /* Profile image */
-  .profile img {
-    width: 100px;
-    height: 100px;
-    margin: 10px auto;
-    display: block;
+  body {
+    padding: 10px;
   }
 
-  /* Headline text */
-  .headline {
+  .container {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: 1.2rem;
-    line-height: 1.4;
   }
 
-  /* Buttons stack vertically */
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+
   .buttons {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px; /* space between buttons */
     width: 100%;
-    max-width: 280px;
-    margin: 20px auto;
+    max-width: 280px; /* keeps them neat */
+    margin-top: 20px;
   }
 
-  .buttons button,
-  .buttons a {
-    width: 100%;
-    text-align: center;
-    font-size: 0.9rem;
+  .buttons button {
+    width: 100%; /* full width */
     padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
   }
 
-  /* Chatbot */
   #chat-container {
-    width: 95%;
-    max-width: 350px;
-    margin: 15px auto;
-    border-radius: 12px;
-    font-size: 0.85rem;
-  }
-
-  #chat-icon {
-    bottom: 15px;
-    right: 15px;
-    width: 55px;
-    height: 55px;
-    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 20px;
   }
 }
