@@ -288,28 +288,36 @@ body {
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+    flex-direction: column !important;  /* force stacking */
+    text-align: center !important;
   }
+
   .hero-left {
-    order: 2;
-    max-width: 100%;
+    order: 2 !important;  /* move text + buttons below */
+    max-width: 100% !important;
   }
+
   .hero-right {
-    order: 1;
-    margin-bottom: 20px;
+    order: 1 !important;  /* move image above */
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: center; /* center image */
   }
+
   .hero-right .avatar {
-    width: 140px;
-    height: 140px;
+    width: 140px !important;
+    height: 140px !important;
   }
-  /* Mobile button fix */
+
   .cta {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 20px;
   }
+
   .cta .btn {
-    width: 100%;
-    max-width: 280px;
+    width: 100% !important;
+    max-width: 280px !important;
   }
 }
