@@ -292,10 +292,12 @@ body {
     text-align: center;
   }
   .hero-left {
+    order: 2;
     max-width: 100%;
   }
   .hero-right {
-    margin-top: 20px;
+    order: 1;
+    margin-bottom: 20px;
   }
   .hero-right .avatar {
     width: 140px;
