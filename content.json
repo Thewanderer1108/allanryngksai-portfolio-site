@@ -1,0 +1,62 @@
+{
+  "skills": [
+    "Python",
+    "SQL",
+    "R",
+    "JavaScript",
+    "Alteryx",
+    "Power BI",
+    "Excel",
+    "GitHub",
+    "Machine Learning (Regression, Classification, Clustering, Time Series)",
+    "Deep Learning (LSTM, Neural Networks)",
+    "Data Cleaning & Wrangling",
+    "Automation (Python + Alteryx)",
+    "ETL / Data Pipelines",
+    "AWS (Data Analytics Specialty – in progress)",
+    "AWS (AI Practitioner – in progress)"
+  ],
+  "experience": [
+    {
+      "role": "Workforce/Data Automation Analyst",
+      "company": "Current Company",
+      "years": "2023–Present",
+      "highlights": [
+        "Automated SharePoint ticketing workflow with Alteryx & Python",
+        "Developed round-robin ticket assignment system based on agent state files",
+        "Built forecasting models for call center SLA & volumes using SARIMA, Prophet, and LSTM"
+      ]
+    },
+    {
+      "role": "Data Analyst",
+      "company": "ABC Ltd",
+      "years": "2020–2023",
+      "highlights": [
+        "Built dashboards in Power BI to track business KPIs",
+        "Optimized SQL queries for large-scale datasets",
+        "Collaborated with operations team to deliver actionable insights"
+      ]
+    },
+    {
+      "role": "Business Analyst",
+      "company": "DEF Pvt Ltd",
+      "years": "2018–2020",
+      "highlights": [
+        "Managed stakeholder requirements and documentation",
+        "Worked on process automation for reporting workflows",
+        "Provided data-backed recommendations for business strategy"
+      ]
+    }
+  ],
+  "education": [
+    "Executive PG in Data Science & Artificial Intelligence – IIT Roorkee (iHUB DivyaSampark, 2024)",
+    "Bachelor of Computer Applications (BCA) – ST Edmunds College, Shillong (2016)"
+  ],
+  "projects": [
+    "📊 **Contact Center Forecasting** – Used SARIMA, Prophet, and LSTM to predict call volumes, SLA, and staffing requirements.",
+    "⚙️ **SharePoint Ticket Automation** – Automated end-to-end ticket assignment with Alteryx, integrated email notifications, and dynamic performance-based routing.",
+    "📈 **Time Series Forecasting Toolkit** – Created reusable Python workflows for business forecasting using SARIMA, LSTM, and Prophet.",
+    "🤖 **Custom Resume Chatbot** – Built an interactive chatbot (this site!) powered by JSON-based knowledge base for smart Q&A.",
+    "🛠️ **ETL Pipeline Automation** – Extracted raw data from multiple sources, cleaned with Python, and transformed to YXDB with Alteryx."
+  ]
+}
