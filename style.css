@@ -321,3 +321,19 @@ body {
     max-width: 280px !important;
   }
 }
+body.dark-mode {
+  background: #181a1b;
+  color: #f1f1f1;
+}
+body.dark-mode .section,
+body.dark-mode header,
+body.dark-mode .chat-header {
+  background: #232526;
+  color: #f1f1f1;
+}
+body.dark-mode a,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #f1f1f1;
+}
