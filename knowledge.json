@@ -1,0 +1,202 @@
+{
+    "work": {
+  "current": {
+    "answer": "Associate - Automation & Data Analytics at JP Morgan Chase & Co. (2026 – Present), Mumbai, India. Leading automation and analytics projects, integrating AI/ML into business workflows, and driving efficiency across teams.",
+    "keywords": ["current job", "working now", "present work", "where do you work", "job now"]
+  },
+  "previous": {
+    "answer": "Workforce / Data Analyst at JP Morgan Chase & Co. (Dec 2023 – 2025), actively contributed to high-impact automation and analytics projects. Before that, Fraud Analyst at JP Morgan Chase & Co. (Mar 2022 – Nov 2023), focused on fraud detection and reporting automation. Prior to this, Sales Specialist at Tech Mahindra Business Services (Mar 2018 – Mar 2022), handling client negotiations and sales solutions.",
+    "keywords": ["previous job", "past work", "old job", "last company"]
+  },
+  "responsibilities": {
+    "answer": "Key responsibilities include automating workflows, building ML/AI models, developing time-series forecasting and analytics solutions, and managing cross-functional data pipelines. Experienced in stakeholder engagement, business reporting, and process improvements.",
+    "keywords": ["responsibilities", "tasks", "what do you do", "job role", "duties"]
+  },
+  "highlights": [
+    {
+      "title": "Data Management & Streamlining",
+      "detail": "Implemented Python-based data system reducing processing time by 50%. Tools: Python, Jupyter Notebook."
+    },
+    {
+      "title": "Process Improvement via Data Analysis",
+      "detail": "Improved process efficiency by 25% through data-driven insights using Alteryx and Excel."
+    },
+    {
+      "title": "Data Management & Reporting Automation",
+      "detail": "Integrated six datasets and automated reporting for 22,000 employees using Alteryx and Excel VBA."
+    },
+    {
+      "title": "SharePoint Data Integration & Insights",
+      "detail": "Built Python API pipelines from SharePoint to create structured datasets for downstream EDA."
+    },
+    {
+      "title": "Cross-Business Data Transformation",
+      "detail": "Created tailored data pipelines to meet diverse business requirements, ensuring accuracy and compatibility."
+    },
+    {
+      "title": "SharePoint Ticket Automation",
+      "detail": "Automated ticket assignment with Alteryx, using round-robin performance-aware logic and real-time SharePoint updates."
+    },
+    {
+      "title": "Ongoing Projects",
+      "detail": "Developing LLM-powered analytics and chatbot systems for autonomous querying and exploration."
+    },
+    {
+      "title": "Tableau Cloud Migration",
+      "detail": "Migrated Tableau dashboards from on-premises to cloud, enabling automated refreshes via Alteryx Server."
+    }
+  ]
+},
+  
+  "education": [
+    {
+      "type": "bachelor",
+      "answer": "I completed my Bachelor of Computer Applications (BCA) from ST Edmunds College, Shillong in 2016.",
+      "keywords": ["bachelor", "undergrad", "college degree", "BCA", "computer applications", "undergraduate"]
+    },
+    {
+      "type": "postgrad",
+      "answer": "I pursued an Executive PG in Data Science & Artificial Intelligence from IIT Roorkee (iHUB DivyaSampark) in 2024.",
+      "keywords": ["postgrad", "masters", "executive program", "post graduate", "PG", "IIT", "artificial intelligence", "data science"]
+    }
+  ],
+  "certifications": [
+  {
+    "name": "Python Programming Masterclass Certification",
+    "issuer": "Udemy",
+    "credential_id": "UC-7740eccc-8338-4d1a-a2ef-e066a8cb1713",
+    "link": "http://ude.my/UC-7740eccc-8338-4d1a-a2ef-e066a8cb1713",
+    "keywords": ["python", "programming", "udemy", "masterclass", "certification"]
+  },
+  {
+    "name": "MS SQL Developer Course",
+    "issuer": "Intellipaat",
+    "credential_id": "31679-2853-211473",
+    "link": "https://lms.intellipaat.com/certificate-link/?Yz0yODUzJnU9MjExNDczJmV4dD0x",
+    "keywords": ["sql", "ms sql", "database", "developer", "certification"]
+  },
+  {
+    "name": "Alteryx Designer Core Certification",
+    "issuer": "Alteryx (Credly)",
+    "link": "https://www.credly.com/badges/391eb786-708a-49f4-a3fe-72b582de11a9/public_url",
+    "keywords": ["alteryx", "core", "designer", "certification"]
+  },
+  {
+    "name": "Machine Learning Certification",
+    "issuer": "Intellipaat",
+    "link": "https://lms.intellipaat.com/certificate-link/?Yz0xMjAwOTEmdT0yMTE0NzMmZXh0PTE=",
+    "keywords": ["machine learning", "ml", "certification", "intellipaat"]
+  },
+  {
+    "name": "Executive Post Graduate Certification in Data Science & Artificial Intelligence",
+    "issuer": "IIT Roorkee (iHUB DivyaSampark) & Intellipaat",
+    "link": "https://tih.iitr.ac.in/certificate/intellipaat/IPTIH2411007.jpg",
+    "keywords": ["post graduate", "executive", "iitr", "data science", "ai", "certification"]
+  }
+],
+  "skills": [
+  {
+    "category": "Programming & Data",
+    "answer": "Python Programming, SQL, Data Analysis, Data Science, Machine Learning & AI, Data Management, Data Collection & Research",
+    "keywords": ["python", "sql", "data analysis", "machine learning", "ai", "data science", "programming", "research", "data management"]
+  },
+  {
+    "category": "Tools & Platforms",
+    "answer": "Alteryx, Alteryx Server, Tableau Server, Power BI, MS Office, Excel (advanced), Jupyter Notebook",
+    "keywords": ["alteryx", "alteryx server", "tableau server", "power bi", "excel", "jupyter", "tools", "platforms"]
+  },
+  {
+    "category": "Automation & Reporting",
+    "answer": "Reports Automation, Workflow Automation, Data Pipelines, Dashboarding & Visualization",
+    "keywords": ["automation", "reporting", "workflow", "pipelines", "dashboard", "visualization"]
+  },
+  {
+    "category": "Professional Skills",
+    "answer": "Stakeholder Management, Attention to Detail, Problem Solving, Communication, Collaboration",
+    "keywords": ["stakeholder management", "communication", "problem solving", "attention to detail", "collaboration", "soft skills"]
+  }
+],
+
+ "projects": [
+  {
+    "title": "Data Management and Streamlining",
+    "answer": "Implemented a Python-based data management system that reduced processing time by 50%. Focused on cleaning, transforming, and organizing unstructured data using Python and Jupyter Notebook.",
+    "keywords": ["data management", "streamlining", "python", "jupyter", "automation"]
+  },
+  {
+    "title": "Process Improvement through Data Analysis",
+    "answer": "Improved process efficiency by 25% through data analysis using Alteryx and Excel. Focused on identifying opportunities for process optimization and workflow enhancements.",
+    "keywords": ["process improvement", "data analysis", "alteryx", "excel", "efficiency"]
+  },
+  {
+    "title": "Data Management and Reporting Automation",
+    "answer": "Integrated data from six different datasets, performing data transformation and cleaning. Automated reporting for 22,000 employees using Alteryx and Excel VBA, improving accuracy and efficiency.",
+    "keywords": ["reporting automation", "alteryx", "excel", "vba", "data transformation"]
+  },
+  {
+    "title": "SharePoint Data Integration and Insights",
+    "answer": "Implemented a Python-based API solution to extract data from an on-prem SharePoint site, creating structured datasets for downstream analysis and EDA, supporting business decision-making.",
+    "keywords": ["sharepoint", "data integration", "eda", "python", "insights"]
+  },
+  {
+    "title": "Streamlined Data Transformation for Cross-Business Requirements",
+    "answer": "Developed a pipeline using Python and Alteryx to extract and transform data from multiple sources into CSV and YXDB formats, meeting the needs of two distinct business lines.",
+    "keywords": ["data pipeline", "python", "alteryx", "yxdb", "cross-business"]
+  },
+  {
+    "title": "SharePoint Ticket Automation",
+    "answer": "Automated SharePoint ticket assignment using Alteryx with a dynamic agent state file and round-robin algorithm. Reduced manual effort by 90% and improved SLA through real-time write-back.",
+    "keywords": ["sharepoint", "ticket automation", "round robin", "sla", "workflow automation"]
+  },
+  {
+    "title": "Ongoing: LLM-Powered Analytics & Chatbot",
+    "answer": "Contributing to the development of LLM-powered analytics that extracts summaries and insights from data dumps, and building a chatbot interface for interactive querying and autonomous data exploration.",
+    "keywords": ["llm", "chatbot", "analytics", "ai", "data exploration"]
+  },
+  {
+    "title": "Tableau Cloud Migration",
+    "answer": "Led the migration of Tableau dashboards from on-premises to Tableau Cloud using Alteryx. Automated pipelines via Alteryx Server to refresh dashboards with the latest data on a scheduled basis.",
+    "keywords": ["tableau", "cloud migration", "alteryx server", "automation", "dashboards"]
+  }
+  ],
+  "personal": [
+    {
+      "type": "location",
+      "answer": "I am from Shillong, Meghalaya, India.",
+      "keywords": ["location", "where are you from", "city", "place", "hometown"]
+    },
+    {
+      "type": "interests",
+      "answer": "My interests include Martial Arts, Reading, Technology, Motorcycles, and Anime.",
+      "keywords": ["interests", "hobbies", "what do you like", "free time", "passions", "activities"]
+    }
+  ],
+
+  "awards": [
+  {
+    "title": "Monthly Business Review Recognition",
+    "answer": "Recognized in the Monthly Business Review with senior leadership for successfully building an Audit Control system that ensured compliance and accuracy in daily operations.",
+    "keywords": ["monthly business review", "audit control", "recognition", "leadership appreciation"]
+  },
+  {
+    "title": "One in a Million Award",
+    "answer": "Received the 'One in a Million' award for exceptional performance and contributions to automation and analytics initiatives.",
+    "keywords": ["one in a million", "award", "recognition", "performance"]
+  },
+  {
+    "title": "Super Star Award",
+    "answer": "Honored with the 'Super Star' award for driving impactful automation solutions and delivering measurable business value.",
+    "keywords": ["super star", "award", "automation", "achievement"]
+  },
+  {
+    "title": "Super Spark Award",
+    "answer": "Awarded the 'Super Spark' recognition for Q2 2025, acknowledging innovation and dedication in delivering automation and analytics projects.",
+    "keywords": ["super spark", "award", "q2", "recognition", "innovation"]
+  },
+  {
+    "title": "Other Accolades",
+    "answer": "Received multiple awards and accolades throughout my career for contributions to automation, analytics, and business impact.",
+    "keywords": ["accolades", "recognition", "awards", "achievements"]
+  }
+]
+}
