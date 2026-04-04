@@ -25,14 +25,17 @@ body {
 /* NAVBAR */
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 4.5rem 1rem 2rem; /* more right padding for toggle */
   background: var(--dark);
   color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+.nav nav {
+  margin-left: 2rem;
 }
 .nav .brand {
   font-size: 1.5rem;
@@ -114,7 +117,7 @@ body {
 
 /* SECTION */
 .section {
-  padding: 3rem 2rem;
+  padding: 3rem 4.5rem 3rem 2rem; /* more right padding for toggle */
   max-width: 1000px;
   margin: auto;
 }
@@ -287,35 +290,36 @@ body {
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
+  .nav {
+    padding: 1rem 1.5rem 1rem 1rem !important;
+  }
+  .section {
+    padding: 2rem 1.5rem 2rem 1rem !important;
+  }
   .hero {
     display: flex;
     flex-direction: column !important;  /* force stacking */
     text-align: center !important;
   }
-
   .hero-left {
     order: 2 !important;  /* move text + buttons below */
     max-width: 100% !important;
   }
-
   .hero-right {
     order: 1 !important;  /* move image above */
     margin-bottom: 20px !important;
     display: flex;
     justify-content: center; /* center image */
   }
-
   .hero-right .avatar {
     width: 140px !important;
     height: 140px !important;
   }
-
   .cta {
     flex-direction: column !important;
     align-items: center !important;
     margin-top: 20px;
   }
-
   .cta .btn {
     width: 100% !important;
     max-width: 280px !important;
