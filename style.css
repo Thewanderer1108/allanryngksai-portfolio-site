@@ -337,3 +337,20 @@ body.dark-mode h2,
 body.dark-mode h3 {
   color: #f1f1f1;
 }
+body.dark-mode .project-card {
+  background: #232526;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
+body.dark-mode .project-card h4 {
+  color: #ffe082;
+}
+body.dark-mode .btn.primary {
+  background: #232526;
+  color: #ffe082;
+  border: 1px solid #ffe082;
+}
+body.dark-mode .btn.ghost {
+  border: 2px solid #ffe082;
+  color: #ffe082;
+}
